@@ -1,38 +1,9 @@
 body {
-<<<<<<< HEAD
     background-color: lightyellow;
 }
 
 
-
-
-/* Footer */
-
-footer {
-    display: inline-block;
-}
-
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type:none;
-}
-
-#social-networks i {
-    font-size:150%;
-    padding:5%;
-    color:#3a3a3a;
-}
-
-.copyrightbox {
-    border: 5px solid black;
-    width: 25%
-}
-=======
-    background-color: lightgoldenrodyellow;
-}
+/* Header */
 header{
     background-image: url(''); /* Add header background image here */
             background-size: cover;
@@ -60,4 +31,28 @@ header{
             color: #fff;
             text-decoration: none;
           }
->>>>>>> main
+
+/* Footer */
+
+footer {
+  display: inline-block;
+}
+
+#social-networks {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type:none;
+}
+
+#social-networks i {
+  font-size:150%;
+  padding:5%;
+  color:#3a3a3a;
+}
+
+.copyrightbox {
+  border: 5px solid black;
+  width: 25%
+}
