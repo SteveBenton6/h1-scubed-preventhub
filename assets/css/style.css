@@ -1,3 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+
 body {
-    background-color: red;
+	font-family: 'Open Sans', Arial, sans-serif;
+	margin: 0;
+	background-color: whitesmoke;
+    max-width: 120ch;
+    min-width: 800px;
+    margin: 10px auto;
+    padding: 50px;
+    padding-bottom: 0;
+    
+    display: grid;
+    grid-template:
+        "header"
+        "divider"
+        "main  "
+        "footer" /
+         3fr    ;
+    grid-gap: 3fr ;
+    
+ 
+    
+    > header {
+        grid-area: header;
+    }
+
+}
+
+h1,h2,h3 {
+	font-family: 'Merienda One', 'Brush Script MT', cursive;
+}
+
+h1 {
+	font-size: 3rem;
+	margin: 0;
+}
+
+h2 {
+	font-size: xx-large;
+}
+
+header {
+	color: beige;
+}
+
+header > p {
+	color: white;
+}
+
+header {
+	background-color: black;
+}
+
+.text-white {
+	color: #FFFFFF;
+}
+
+.black-background {
+    background-color: black;
+}
+
+#aboutUs {
+    background-image: url('./logo-color_720.png')
+}
+
+.page-header {
+	height: 35vh;
+	background: center 10% / cover no-repeat;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+strong {
+	font-size: 1.3rem;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+nav {
+	padding: 1rem;
+}
+
+nav > a {
+	text-decoration: none;
+	color: beige;
+	margin: 1rem;
+}
+
+nav > a:hover {
+	color: silver;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+small {
+	font-style: italic;
+}
+
+img {
+	border-radius: 8px;
+	width: 96%;
+	margin: 2%;
+}
+
+.one-third-width-column {
+    width: 80%;
+}
+
+.two-thirds-width-column {
+    width: 80.66%;
+}
+.reasons-box {
+	padding: 10px 5px 25px 5px;
+	border-radius: 8px;
+	width: 100%;
+	margin: 2%;
+	background-color: chocolate;
+    position: relative;
+    left: 20%;
+    top: 30px;
+}
+
+
+th,
+td {
+    border-bottom: 1px solid black;
+}
+
+ul, ol {
+	padding: 0;
+	list-style-type: none;
+}
+
+
+main {
+    grid-area: main;
+    
+    p {
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+
+footer {
+	background-color: #6f4e37;
+	padding: 1em;
+	text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	z-index: 3;
+}
+
+footer > span {
+	color: silver;
+}
+
+footer > a {
+	color: beige;
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 0.8rem;
+}
+
+footer > p {
+	color: silver;
+}
+
+fieldset {
+	border: none;
+	margin-top: 20px;
+}
+
+input[type=submit] {
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color: #5e361b;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+input[type=reset] {
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color: white;
+	color: #5e361b;
+	border: 1px solid #5e361b;
+	border-radius: 5px;
+}
+
+input[type=text],
+input[type=email],
+input[list=coffees] {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+	margin: 0 auto;
+}
+
+/* overrides css above */
+input[list=coffees] {
+    width: 45%;
+}
+
+select {
+    height: 35.2px;
+    width: 100px;
+    padding-left: 10px;
+}
+
+form {
+	width: 700px;
+	padding: 25px;
+	border-radius: 8px;
+	margin: 25px auto;
+	background-color: white;
+}
+
+.block-label {
+	display: block;
+}
+
+legend {
+	font-size: large;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 20px 0 10px 0;
+}
+
+label {
+    margin: 10px 15px 5px 0;
+}
+
+.checkboxes-box div {
+    margin-top: 15px;
+}
+
+#reasons li {
+    margin-top: 5%;
+}
+
+#terms {
+    height: 200px;
+    width: 90%;
+    padding: 0.5rem;
+    margin: 1.5rem 0 0 15px;
+    border: 1px solid grey;
+    overflow: scroll;
+}
+
+/* map */
+#map-wrapper {
+
+    height: 300px;
+    margin-bottom: 107px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+/* FLEXBOX CLASSES */
+
+.flex {
+    display: flex;
+}
+
+.horizontal-center {
+    justify-content: center;
+}
+
+.vertical-center {
+    align-self: center;
+}
+
+.vertical-bottom {
+    align-self: flex-end;
+}
+
+.last {
+    order: 1;
+}
+
+.gap-20 {
+    gap: 20px;
 }
