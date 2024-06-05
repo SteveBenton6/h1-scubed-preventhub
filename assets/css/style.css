@@ -55,7 +55,7 @@ nav {
 
 /* Main Section */
 .body-content{
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 
 }
 
@@ -63,7 +63,23 @@ nav {
 /* Footer */
 
 footer {
-  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+/* Styles for Mobile Devices*/
+@media (max-width: 768px)
+{
+  .body-content{
+    padding-bottom: 150px;
+  }
+  .footer{
+    position: relative;
+    height: auto;
+    overflow: hidden;
+  }
 }
 
 #social-networks {
@@ -89,10 +105,7 @@ footer {
  
 }
 
-.red-background{
-    background-color: red;
 
-}
 .text-read{
   text-align: center;
   padding: 20px 0;
