@@ -53,6 +53,13 @@ nav {
     color: #007bff;
 }
 
+/* Main Section */
+.body-content{
+  margin-bottom: 100px;
+
+}
+
+
 /* Footer */
 
 footer {
@@ -74,6 +81,22 @@ footer {
 }
 
 .copyrightbox {
-  border: 5px solid black;
-  width: 25%
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type:none;
+ 
+}
+
+.red-background{
+    background-color: red;
+
+}
+.text-read{
+  text-align: center;
+  padding: 20px 0;
+}
+.text-read a:hover {
+  text-decoration: underline;
 }
