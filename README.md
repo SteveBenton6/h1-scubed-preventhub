@@ -53,14 +53,12 @@ The H1 Scubed PreventHub project aims to keep people and communities safe from t
 - __Resources section__
 
   - This section will allow the user to see resources available for different users like educators, parent, community leaders . 
-  - 
-
+  
 
 - __Contactus section__
 
   - This section will allow the user to get support and submit their problem on radicalism & extremism and get advise & news latter . 
-  - 
-
+  
 
 - __The Footer__ 
 
