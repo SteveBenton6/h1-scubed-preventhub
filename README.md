@@ -1,114 +1,180 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![scubbedPreventHub logo](https://github.com/SteveBenton6/h1-scubed-preventhub/blob/main/assets/images/logo-color.png)
+# H1 Scubed PreventHub
 
-Welcome Steven Benton,
+## Introduction
+### Project overview
+The H1 Scubed PreventHub project aims to keep people and communities safe from the threat of terrorism by safeguarding vulnerable individuals from radicalization. This project views the safeguarding against radicalization as a form of protection against harm, similar to other forms of safeguarding.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Table of Contents
+- [H1 Scubed PreventHub](#h1-scubed-preventhub)
+  - [Introduction](#introduction)
+    - [Project overview](#project-overview)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+    - [List of features](#list-of-features)
+    - [Existing Features](#existing-features)
+    - [UX/UI](#uxui)
+    - [Users Stories](#users-stories)
+  - [Testing](#testing)
+  - [Installation](#installation)
+    - [Deployment](#deployment)
+  - [Dependencies](#dependencies)
+  - [Documentation](#documentation)
+  - [Examples](#examples)
+  - [Troubleshooting](#troubleshooting)
+  - [Contributors](#contributors)
+  - [License](#license)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 28, 2024**
+## Features
+### List of features
+- Case studies & Contact information for identifying and preventing radicalization & extremeism 
+- Educator,Community leader,Parent users preventing radicalization & extremeism information
+- User-friendly interface for accessing preventive measures
 
-## Gitpod Reminders
+### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- __Navigation Bar__
 
-`python3 -m http.server`
+  - Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-A blue button should appear to click: _Make Public_,
+![Nav Bar](https://github.com/SteveBenton6/h1-scubed-preventhub/blob/main/assets/images/logo-color.png)
 
-Another blue button should appear to click: _Open Browser_.
+- __The landing page image__
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
+  - This section introduces the user to ScubedPreventHub with an eye catching Company logo to grab their attention and details on Prevent ,radicalisation and extremism
 
-A blue button should appear to click: _Make Public_,
+![Landing Page](https://github.com/SteveBenton6/h1-scubed-preventhub/blob/main/assets/images/logo-color.png)
 
-Another blue button should appear to click: _Open Browser_.
+- __case studies Section__
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - The case section will allow the user to see the benefits of Case studies for identifying and preventing in education and  communities. 
+  
+![case studies Ethos](https://github.com/SteveBenton6/h1-scubed-preventhub/blob/main/assets/images/logo-color.png)
 
-To log into the Heroku toolbelt CLI:
+- __Resources section__
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  - This section will allow the user to see resources available for different users like educators, parent, community leaders . 
+  - 
+![Resource Ethos](https://github.com/SteveBenton6/h1-scubed-preventhub/blob/main/assets/images/logo-color.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+- __Contactus section__
 
-------
+  - This section will allow the user to get support and submit their problem on radicalism & extremism and get advise & news latter . 
+  - 
+![contactsu Ethos](https://github.com/SteveBenton6/h1-scubed-preventhub/blob/main/assets/images/logo-color.png)
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- __The Footer__ 
 
-**May 28 2024:** Fix Mongo and Links installs
+  - The footer section includes links to the relevant social media sites for ScubedpreventHub. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media
 
-**April 26 2024:** Update node version to 16
+![Footer](https://github.com/SteveBenton6/h1-scubed-preventhub/blob/main/assets/images/logo-color.png)
 
-**September 20 2023:** Update Python version to 3.9.17.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### UX/UI
+The site is presented in a minimalist but effective way . providding all the information the user needs . In general, educators,parents,community leaders users  can find more about Extremism and radicalistion ,his team services and how to stop the same and how to contact them . there is also more details on gallery and document on UX and user stories will be find in Project directory 
+### Users Stories
+- As a user I can go to a home page with menus so that I can clearly understand how to move across a wide range of Prevent material. Must Have
+ 
+- As a user I can go to a section describing Prevent so that I can clearly understand the principles of Prevent and its objectives.  Must Have
+ 
+- As a user I can go to a section describing Radicalism and Extremism so that I can understand these within the wider context of counter-terrorism. Should Have
+ 
+- As a user I can go to a section of Prevent Case Studies so that I can understand successful Prevent interventions. Should Have
+ 
+- As an educator, community leader or parent I can access Video resources so that I can better recognise the signs of radicalization. Should Have
+ 
+- As an educator, community leader or parent I can access links to external interactive workshops or webinars so that I can improve my understanding of Prevent from relevant experts and practitioners. Must Have
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- As a user I can click a link or button to get confidential advice so that I can clearly understand how to better resolve a personal issue with prevent. Should Have
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- As a user I can click the Facebook, Instagram and X links so that I can connect with discussions from others on Prevent. Should Have
+ 
+- As the organisation owner I can offer a link to allow users to donate so that I can continue to provide the Prevent service. Could Have
+ 
+ 
+   
+- As a user, I want a FAQ section for quick answers about Prevent. Must Have
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- As an education , community leader or parent,  I want some Printable Resources so that I can access for offline use.  Could Have    
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- As a user, I want to subscribe to a newsletter so that I can stay updated on new resources and events.  Should Have
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- As a user, I want to complete e-learning modules on Prevent so that I can deepen my understanding through the structured lessons. Could Have 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- As a user, I want a simple process to report suspicious activity so that I can quickly alert authorities. Wont Have
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- As a user, I want guidance, with examples and tips, on what constitutes suspicious activity so that I know what information to provide. Could Have
+## Testing
+- Testing strategy: The testing approach for the application, including the type of tests run (unit tests, integration tests, etc.), the testing framework used (e.g. unittest for HTML/CSS), and the coverage goal.
+- How to run tests: 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- HTML - No error were returned when passing through the official [W3c validator](https://html5.validator.nu/)
+- CSS/bootstrap - No error were returned when passing through the official [W3c validator](https://jigsaw.w3.org/css-validator/)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
 
-## FAQ about the uptime script
+ 
 
-**Why have you added this script?**
+## Installation
+### Deployment
+The Project was deployed on the GitHub hosting platform from the Project repository. 
+The steps to deploy were as follows:
+- In the GitHub repository, the repository h1-scubed-preventhub was selected.
+- Navigated to the Settings tab and then selected pages.
+- Deploy from Branch was set.  The Branch was set to main.  Saved.
+- The pages were put live within a few minutes..
+  
+  To install and run the H1 Scubed PreventHub locally, follow these steps:
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/SteveBenton6/h1-scubed-preventhub.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd h1-scubed-preventhub
+3. To start the application, run:
+    ```bash
+    python3 -m http.server
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+    ```
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+Open the browser and navigate to the provided localhost address.
 
-**So….?**
+## Dependencies
+- HTML
+- CSS/bootstrap
+- Docker
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+Configuration
+Ensure you have the necessary environment setup. For Docker configurations, refer to the Dockerfile in the repository.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Documentation
+Detailed documentation and usage examples can be found in the README.md file in the repository.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Examples
+Examples of usage and configurations can be found in the examples directory.
 
-**Anything more?**
+## Troubleshooting
+Common issues and troubleshooting steps are documented in the ISSUE_TEMPLATE file. If you encounter any problems, please check there first.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Contributors
+- [Steve Benton](https://github.com/SteveBenton6)
+- [Suraj Rajendran](https://github.com/rajends1)
+- [Suba Suresh](https://github.com/suba-suresh)
 
----
-
-Happy coding!
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+```bash
+Feel free to adjust any sections to better fit your project's specifics 
