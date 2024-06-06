@@ -1,105 +1,224 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
 body {
-    background-color: lightgoldenrodyellow;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto Serif', sans-serif;
-}
-
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: #fff;
-}
-
-nav {
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo img {
-    width: 100%;
-    max-width: 400px; 
-    height: auto;
-}
-
-.nav-list {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-list li {
-    margin-right: 20px;
-}
-
-.nav-list li:last-child {
-    margin-right: 0;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: #000;
-}
-
-.nav-link:hover {
-    color: #007bff;
-}
-
-/* Main Section */
-.body-content{
-  margin-bottom: 100px;
-
-}
-
-
-
-
-/* Content */
-
-.about-prevent {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-}
-
-/* Then style the iframe to fit in the container div with full height and width */
-.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
+  background-color: lightgoldenrodyellow;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Serif', sans-serif;
   height: 100%;
 }
 
-.links {
-  color: black;
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+
+nav {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: auto;
+  /* Adjust based on your logo size */
+  width: 450px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+
+.nav-list li:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+/* Main Section */
+.body-content {
+  padding-bottom: 150px;
+}
+
+.body-content h2 {
+  background-color: #F0E68C;
+}
+
+
+iframe .prevent-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  border: none;
+
+}
+
+iframe .usecase-frame {
+  width: 100%;
+  height: 200px;
+
+}
+
+.about-extrem h2,
+.about-radical h2,
+.about-prevent h2 {
+  background-color: #F0E68C;
+
+}
+
+.about-radical img {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: square;
+  text-align: justify;
+}
+
+ul li {
+  padding-left: 1.3em;
+  position: relative;
+  line-height: 1.5rem;
+}
+
+.group-form {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.btn-custom {
+  background-color: #F0E68C;
+  text-emphasis-color: black;
+  border: 2px solid;
+  border-radius: 12px;
+}
+
+.btn-warning {
+  text-emphasis-color: black;
+  border: 2px solid;
+  border-radius: 12px;
+}
+
+.btn-custom:hover {
+  background-color: #F0E68C;
+  color: rgb(9, 0, 0);
 }
 
 /* Footer */
+
+footer {
+  position: relative;
+  /* Changed from absolute to relative */
+  padding: 20px 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Styles for Mobile Devices*/
+@media (max-width: 768px) {
+  .logo img {
+    max-width: 150px;
+  }
+
+  .nav-list {
+    text-align: center;
+    width: 100%;
+  }
+
+  .nav-collapse {
+    display: flex;
+    justify-content: center;
+  }
+
+  .body-content {
+    padding-bottom: 100px;
+  }
+
+  .group-form {
+    margin-bottom: 2rem;
+  }
+
+  .about-extrem {
+    margin-top: 2rem;
+  }
+
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  .body-content {
+    padding-bottom: 100px; /*  padding adjust for small screens if need */
+  }
+
+  .footer {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    padding: 20px 10px; /*  padding adjust for small screens if needed*/
+  }
+
+  .footer .col-md-6,
+  .footer .col-md-4,
+  .footer .col-md-2 {
+    text-align: center; /*  alignment Adjust for small screens if needed */
+  }
+}
+
+@media (max-width: 576px) {
+  .body-content {
+    padding-bottom: 150px; /*  increase padding for very small screens if needed */
+  }
+
+  .footer {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    padding: 20px 5px; /*  adjust padding for very small screens if needed */
+  }
+
+  .footer .col-md-6,
+  .footer .col-md-4,
+  .footer .col-md-2 {
+    text-align: center;  /* Center alignment for very small screens */
+    padding-bottom: 10px;  /* Add  padding bottom for spacing */
+  }
+}
 
 #social-networks {
   text-align: center;
   padding: 20px 0;
   display: flex;
   justify-content: space-evenly;
-  list-style-type:none;
+  list-style-type: none;
 }
 
 #social-networks i {
-  font-size:150%;
-  padding:5%;
-  color:#3a3a3a;
+  font-size: 150%;
+  padding: 5%;
+  color: #3a3a3a;
 }
 
 .copyrightbox {
@@ -107,18 +226,16 @@ nav {
   padding: 20px 0;
   display: flex;
   justify-content: space-evenly;
-  list-style-type:none;
- 
-}
-
-.red-background{
-    background-color: red;
+  list-style-type: none;
 
 }
-.text-read{
+
+
+.text-read {
   text-align: center;
   padding: 20px 0;
 }
+
 .text-read a:hover {
   text-decoration: underline;
 }
